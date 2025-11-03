@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rugpullrefund.app/sitemap.xml
+
+# SEO-friendly crawling for Rug Pull Refund landing page
+# Updated: January 2025

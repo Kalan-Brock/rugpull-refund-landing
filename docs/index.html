@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Rug Pull Refund - Reclaim SOL from Empty Solana Token Accounts | Free Android App</title>
+    <meta name="title" content="Rug Pull Refund - Reclaim SOL from Empty Solana Token Accounts | Free Android App">
+    <meta name="description" content="Free Android app to recover SOL rent from empty Solana token accounts. Works with Phantom, Solflare, and all Solana Mobile wallets. One tap to reclaim your rent fees. Download now!">
+    <meta name="keywords" content="Solana, SOL recovery, Phantom wallet, Solflare, empty token accounts, rent recovery, Solana Mobile, crypto wallet cleaner, blockchain cleanup, SPL tokens, Solana rent, rug pull recovery, token account cleanup, Solana tools, mobile crypto app, Solana wallet optimizer, recover SOL, close token accounts, Solana utilities, Phantom mobile, crypto rent fees">
+    <meta name="author" content="Rug Pull Refund">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://rugpullrefund.app/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rugpullrefund.app/">
+    <meta property="og:title" content="Rug Pull Refund - Reclaim SOL from Empty Token Accounts">
+    <meta property="og:description" content="Free Android app that scans your Solana wallet and recovers rent from empty token accounts in one tap. Works with Phantom and all Solana Mobile wallets.">
+    <meta property="og:image" content="https://rugpullrefund.app/assets/social-preview.png">
+    <meta property="og:site_name" content="Rug Pull Refund">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://rugpullrefund.app/">
+    <meta name="twitter:title" content="Rug Pull Refund - Reclaim Your SOL">
+    <meta name="twitter:description" content="Free Android app to recover SOL rent from empty Solana token accounts. One tap cleanup for Phantom & Solflare wallets.">
+    <meta name="twitter:image" content="https://rugpullrefund.app/assets/social-preview.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../release-package/assets/app-icon-1024.png">
+    <link rel="apple-touch-icon" href="../release-package/assets/app-icon-1024.png">
+    
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Rug Pull Refund",
+        "operatingSystem": "Android",
+        "applicationCategory": "FinanceApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "description": "Reclaim SOL from empty Solana token accounts. Free Android app that scans your wallet and recovers rent fees in one secure transaction.",
+        "downloadUrl": "https://rugpullrefund.app/download.html",
+        "screenshot": [
+            "https://rugpullrefund.app/assets/wallet-clean.png",
+            "https://rugpullrefund.app/assets/review-and-confirm.png",
+            "https://rugpullrefund.app/assets/recovery-complete.png"
+        ]
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            color: white;
+        }
+        
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            background: white;
+            border-radius: 24px;
+            padding: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            font-weight: 700;
+        }
+        
+        .tagline {
+            font-size: 1.4em;
+            opacity: 0.95;
+            margin-bottom: 15px;
+            font-weight: 300;
+        }
+        
+        .badges {
+            margin: 20px 0;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #14F195;
+            color: #000;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.95em;
+            font-weight: 600;
+            margin: 5px;
+        }
+        
+        .cta-container {
+            margin: 50px 0;
+            text-align: center;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background: #14F195;
+            color: #000;
+            padding: 20px 50px;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(20,241,149,0.4);
+            margin: 10px;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(20,241,149,0.6);
+        }
+        
+        .download-btn.secondary {
+            background: white;
+            color: #667eea;
+        }
+        
+        .main-content {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            margin: 40px auto;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h2 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        
+        h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 40px 25px;
+            background: #f8f9fa;
+            border-radius: 16px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .feature:hover {
+            transform: translateY(-8px);
+            border-color: #667eea;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+        }
+        
+        .feature-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        
+        .screenshots {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin: 50px 0;
+        }
+        
+        .screenshot {
+            max-width: 320px;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+            transition: transform 0.3s ease;
+        }
+        
+        .screenshot:hover {
+            transform: scale(1.08);
+        }
+        
+        .how-it-works {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            padding: 50px 40px;
+            border-radius: 16px;
+            margin: 50px 0;
+        }
+        
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 35px;
+            margin-top: 40px;
+        }
+        
+        .step {
+            text-align: center;
+        }
+        
+        .step-number {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background: #14F195;
+            color: #000;
+            border-radius: 50%;
+            line-height: 60px;
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .faq {
+            max-width: 800px;
+            margin: 60px auto;
+        }
+        
+        details {
+            margin-bottom: 20px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+        
+        summary {
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 1.15em;
+            color: #333;
+        }
+        
+        details p {
+            margin-top: 15px;
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .cta-final {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 70px 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 70px 0;
+        }
+        
+        .cta-final h2 {
+            color: white;
+            margin-bottom: 25px;
+        }
+        
+        .cta-final p {
+            font-size: 1.25em;
+            margin-bottom: 35px;
+            opacity: 0.95;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            color: white;
+        }
+        
+        .footer-links {
+            margin: 25px 0;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            opacity: 0.85;
+            transition: opacity 0.3s ease;
+            font-size: 1.05em;
+        }
+        
+        .footer-links a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2em;
+            }
+            
+            .tagline {
+                font-size: 1.1em;
+            }
+            
+            .main-content {
+                padding: 40px 25px;
+            }
+            
+            .download-btn {
+                font-size: 1.1em;
+                padding: 16px 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../release-package/assets/app-icon-1024.png" alt="Rug Pull Refund - Solana Wallet Cleaner Logo">
+            </div>
+            <h1>Rug Pull Refund</h1>
+            <p class="tagline">Reclaim SOL from empty Solana token accounts in one secure tap</p>
+            <div class="badges">
+                <span class="badge">✨ 100% Free</span>
+                <span class="badge">🤖 Android</span>
+                <span class="badge">🌞 Solana Mobile</span>
+                <span class="badge">🔒 Secure</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="cta-container">
+            <a href="download.html" class="download-btn">📱 Download APK Now</a>
+            <a href="https://play.google.com/store" class="download-btn secondary">📲 Google Play (Coming Soon)</a>
+        </div>
+
+        <div class="main-content">
+            <section>
+                <h2>Why Use Rug Pull Refund?</h2>
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature-icon">🔍</div>
+                        <h3>Smart Scanning</h3>
+                        <p>Automatically detects empty token accounts draining your SOL rent fees on Solana blockchain</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">⚡</div>
+                        <h3>One-Tap Recovery</h3>
+                        <p>Close all empty accounts in a single secure transaction. No complex steps required</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🔒</div>
+                        <h3>100% Secure</h3>
+                        <p>Your private keys never leave your wallet. You control every transaction with Phantom or Solflare</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">💰</div>
+                        <h3>Transparent Pricing</h3>
+                        <p>Only 7% service fee when recovery succeeds. No hidden costs, no subscription fees</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Auto-Burn Mode</h3>
+                        <p>Enable automatic cleanup after every scan to keep your Solana wallet optimized</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">📤</div>
+                        <h3>Share Results</h3>
+                        <p>Show your friends how much SOL you recovered from empty token accounts</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="how-it-works">
+                <h2>How Rug Pull Refund Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Connect Your Wallet</h3>
+                        <p>Use Phantom, Solflare, or any Solana Mobile Wallet Adapter compatible wallet</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Scan & Review</h3>
+                        <p>See all empty token accounts, estimated SOL refund, and transparent service fee breakdown</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Confirm & Recover</h3>
+                        <p>Sign once with your wallet to close accounts and reclaim your SOL rent instantly</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>See Rug Pull Refund In Action</h2>
+                <div class="screenshots">
+                    <img src="../release-package/assets/wallet-clean.png" alt="Connect Phantom or Solflare wallet to Rug Pull Refund" class="screenshot">
+                    <img src="../release-package/assets/review-and-confirm.png" alt="Review empty token accounts and SOL recovery amount" class="screenshot">
+                    <img src="../release-package/assets/recovery-complete.png" alt="Successfully recovered SOL from empty Solana token accounts" class="screenshot">
+                </div>
+            </section>
+
+            <section class="faq">
+                <h2>Frequently Asked Questions</h2>
+                
+                <details>
+                    <summary>What are empty Solana token accounts and why do they cost SOL?</summary>
+                    <p>When you receive SPL tokens on Solana, your wallet creates a token account that requires ~0.002 SOL in rent to stay open. When you sell or transfer those tokens out completely, the account stays open and continues charging rent. Rug Pull Refund finds these empty accounts and closes them, returning the rent SOL to your wallet. This is especially common after trading meme coins or receiving airdrops.</p>
+                </details>
+
+                <details>
+                    <summary>Is Rug Pull Refund safe to use with my Phantom or Solflare wallet?</summary>
+                    <p>Yes, Rug Pull Refund is completely safe! Your private keys and seed phrase never leave your wallet app. The app only creates transactions that you review and explicitly approve using your trusted Solana wallet (Phantom, Solflare, Ultimate, Glow, etc.). We cannot access your funds, make transactions, or view your private keys without your permission. It's the same security model as using any DeFi app on Solana.</p>
+                </details>
+
+                <details>
+                    <summary>How much does Rug Pull Refund cost?</summary>
+                    <p>Rug Pull Refund charges a 7% service fee on recovered SOL only when recovery succeeds. For example, if you recover 0.01 SOL, the fee is 0.0007 SOL and you net 0.0093 SOL. If the scan finds zero empty accounts or recovery fails, you pay absolutely nothing. There are no subscription fees, hidden costs, or upfront charges.</p>
+                </details>
+
+                <details>
+                    <summary>Can this app recover my lost tokens or reverse rug pulls and scams?</summary>
+                    <p>No. Rug Pull Refund only recovers SOL rent from empty token accounts in your Solana wallet. It cannot reverse trades, recover stolen funds, undo rug pulls, or get back tokens you've sold. The name "Rug Pull Refund" refers to the rent recovery process, not scam reversal. Think of it as a wallet cleaning and optimization tool for the Solana blockchain.</p>
+                </details>
+
+                <details>
+                    <summary>Which Solana wallets work with Rug Pull Refund?</summary>
+                    <p>Any Solana wallet that supports the Solana Mobile Wallet Adapter protocol works perfectly with Rug Pull Refund. This includes popular wallets like Phantom, Solflare, Ultimate, Glow, Backpack, and many others. If your wallet works with other Solana Mobile apps, it will work with Rug Pull Refund.</p>
+                </details>
+
+                <details>
+                    <summary>When will Rug Pull Refund be available on Google Play Store?</summary>
+                    <p>We're currently completing the Google Play review process and internal testing requirements. The app should be available on Google Play Store within 2-3 weeks. In the meantime, you can download the signed APK directly from this website - it's the exact same app that will appear on the Play Store.</p>
+                </details>
+
+                <details>
+                    <summary>How many empty token accounts can Rug Pull Refund close at once?</summary>
+                    <p>Rug Pull Refund can close all your empty token accounts in a single transaction, regardless of quantity. Whether you have 5 or 50 empty accounts cluttering your Solana wallet, one signature closes them all and recovers the SOL rent. This is much more efficient than closing them manually one by one.</p>
+                </details>
+
+                <details>
+                    <summary>Will this delete tokens I'm still holding in my Solana wallet?</summary>
+                    <p>No! Rug Pull Refund only closes accounts with exactly ZERO tokens. If an account has any balance (even 0.0001 tokens), it will not be touched. The app is specifically designed to safely clean up only the empty accounts that are wasting your SOL on rent fees.</p>
+                </details>
+            </section>
+
+            <section class="cta-final">
+                <h2>Ready to Reclaim Your SOL?</h2>
+                <p>Join thousands of Solana users recovering rent fees from empty token accounts</p>
+                <a href="download.html" class="download-btn">Download Free Android App</a>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="https://github.com/yourusername/rugpull-refund-mobile" target="_blank" rel="noopener">GitHub Source Code</a>
+                <a href="mailto:support@rugpullrefund.app">Contact Support</a>
+            </div>
+            <p>&copy; 2025 Rug Pull Refund. Open source and community-driven.</p>
+            <p style="margin-top: 12px; opacity: 0.8; font-size: 1em;">Built with ❤️ for the Solana community 🌞</p>
+        </div>
+    </footer>
+</body>
+</html>
